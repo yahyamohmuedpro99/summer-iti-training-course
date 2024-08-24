@@ -1,6 +1,6 @@
 
 
-![alt text](../../media/paradigms.png)
+![alt text](/summer-iti-training-course/media/paradigms.png)
 ### 1\. **Imperative Programming (Python)**
 
 ```python
@@ -68,3 +68,13 @@ FROM numbers;`
 
 -   **How It Works**: Declarative programming specifies **what** the outcome should be without detailing **how** to achieve it. Here, the SQL query requests the sum of the `value` column, and the database engine determines the best way to calculate it.
 -   **Characteristics**: Focuses on the end result, not the process. The programmer declares the goal (summing values) rather than writing a step-by-step procedure.
+
+## Summary
+
+**Imperative Programming**: How to perform tasks with explicit state changes and step-by-step instructions.
+
+**Object-Oriented Programming**: Organizes code into classes that bundle data and behavior.
+
+**Functional Programming**: Focuses on what to do using functions and immutability, avoiding state changes.
+
+**Declarative Programming**: Specifies what the result should be without detailing the process, leaving execution to the system.
