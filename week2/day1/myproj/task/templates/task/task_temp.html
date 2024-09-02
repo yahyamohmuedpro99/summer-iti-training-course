@@ -1,0 +1,25 @@
+<html>
+
+
+<body>
+    <h1>MY tasks </h1>
+    <form method='POST'>
+        {% csrf_token %}
+        <input type='text' name='title'>
+        <input type='text' name='description'>
+        <button type='submit'>Submit</button>
+    </form>
+    <ul>
+        {% for task in tasks %}
+            <li>
+                {{task.title}} <span>=====<span> {{task.description}}
+                <button><a>go to task page</a></button>
+                <button ><a>delete</a></button>
+            </li>
+        {% endfor %}
+    </ul>
+
+
+</body>
+
+</html>

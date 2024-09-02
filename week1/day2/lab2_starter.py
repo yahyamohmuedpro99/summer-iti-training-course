@@ -1,36 +1,50 @@
-class Account:
-    def __init__(self, owner, balance=0.0):
-        self.owner = owner
-        self.balance = balance
 
-    def deposit(self, amount):
+# class Displayer:
+#     def __init__(self,itme=None):
+#         self.itme = itme
+#     def display(self):
+#         if self.itme is None:
+#             return "you didn't enter anything"
+#         elif isinstance(self.itme,str):
+#             return f"this is your string {self.itme}"
+#         else:
+#             return self.itme
+    
+# dis=Displayer("dfsasdf")
+# print(dis.display())
+
+from abc import ABC,abstractmethod
+class Animal:
+    def __init__(self, name):
+        self.name = name
+    @abstractmethod
+    def speak(self):
         pass
-
-    def withdraw(self, amount):
+    
+    @abstractmethod
+    def move(self):
         pass
-
-    def __str__(self):
-        return f"Account owner: {self.owner}\nAccount balance: {self.balance}"
-
-
-class SavingsAccount(Account):
-    pass
-
-
-class CheckingAccount(Account):
-    pass
+    
+    
+    
+class Dog(Animal):
+    def speak(self):
+        return "Woof!"
 
 
-# Example Usage
-# myacc_savings = SavingsAccount("Someone", 1000)
-# myacc_savings.deposit(500)
-# myacc_savings.apply_interest(0.05)
-# myacc_savings.withdraw(300)
-# print(myacc_savings) #  Account owner: SomeoneAccount balance: 1500.0
+class Cat(Animal):
+    def speak(self):
+        return "meow!"
+    def move(self):
+        return "I'm a cat! and i'm running"
 
-# myacc_checking = CheckingAccount("SomeoneElse", 200)
-# myacc_checking.deposit(100)
-# myacc_checking.withdraw(50)
-# print(myacc_checking) # Account owner: SomeoneElse\nAccount balance: 150.0"}
+# Creating objects
+dog = Dog("Buddy")
+print(dog.name)  # Output: Buddy
+print(dog.speak())  # Output: Woof!
+print(dog.move())  # Output: Woof!
 
-
+cat = Cat("bosbos")
+print(cat.name)  # Output: Buddy
+print(cat.speak())  # Output: Woof!
+print(cat.move())  # Output: Woof!

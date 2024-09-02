@@ -22,19 +22,19 @@
     A class in OOP is a blueprint for creating objects. It encapsulates data attributes and methods into a single unit. in python:
     ```python
     class Example:
-    def __init__(self):
-        self.public_field = 1          # Public field
-        self._protected_field = 2      # Protected field
-        self.__private_field = 3       # Private field
+        def __init__(self):
+            self.public_field = 1          # Public field
+            self._protected_field = 2      # Protected field
+            self.__private_field = 3       # Private field
 
-    def public_method(self):
-        pass                          # Public method
+        def public_method(self):
+            pass                          # Public method
 
-    def _protected_method(self):
-        pass                          # Protected method
+        def _protected_method(self):
+            pass                          # Protected method
 
-    def __private_method(self):
-        pass                          # Private method```
+        def __private_method(self):
+            pass                          # Private method```
 
 
 

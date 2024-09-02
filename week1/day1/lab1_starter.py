@@ -1,11 +1,19 @@
-class Todo:
-    def __init__(self, title, description):
+class Image:
+    def __init__(self, url, alt):
+        self.url = url
+        self.alt = alt
+
+
+class task:
+    def __init__(self, title, description, image):
         self.title = title
         self.description = description
+        self.image = image
 
-class TodoApp:
+
+class taskApp:
     def __init__(self):
-        self.todos = []
+        self.tasks = []
 
     def create(self, title, description):
         pass
@@ -20,8 +28,8 @@ class TodoApp:
         pass
 
 
-# example usage 
-# app = TodoApp()
+# example usage
+# app = taskApp()
 # app.create("Buy groceries", "Milk, Bread, Cheese")
 # app.create("Learn Python", "Complete OOP exercises")
 # app.read()
@@ -31,9 +39,8 @@ class TodoApp:
 # app.read()
 
 
-
 ##############################################################
 # remmber to uncomment this and comment the usage upper #
 ##############################################################
 
-#app=TodoApp()
+# app=taskApp()
