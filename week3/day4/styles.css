@@ -1,0 +1,148 @@
+/* nav .logo{
+    float:left;
+}
+
+nav .nav-links{
+    float:right;
+}
+
+
+nav .nav-links a{
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.nav-class{
+    background: aqua;
+    overflow: hidden;
+    width: 100%;
+    height: 30px;
+
+} */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    margin: 5px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(153, 144, 161);
+    align-items: center;
+    width: 100%;
+    height: 5vh;
+    color:antiquewhite
+
+}
+.nav-links a{
+    text-decoration: none;
+    padding: 10px;
+    color: aliceblue;
+
+}
+.logo:hover{
+    font-weight: bold;
+    color: aqua;
+}
+.nav-links a:hover{
+    font-weight: bold;
+    color: aqua;
+}
+.home{
+    padding: 40px 0;
+    background-color: antiquewhite;
+
+}
+.container-home{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.container-home .item{
+    flex:1;
+    align-content: center;
+
+}
+.home-btn{
+    padding: 15px 30px;
+    border-radius: 15px;
+    background-color: burlywood;
+    margin-left: 30%;
+
+}
+
+.programs{
+    background-color: rgb(187, 235, 219);
+    padding: 40px 0;
+}
+
+.container-program-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding: 10px;
+    justify-items: center;
+    margin: 10px;
+    }
+.container-program-grid ul{
+    list-style-type: none;
+}
+    
+.container-program-grid h2 { grid-area: 1 / 1 / 3 / 7;
+    text-align: center;
+    margin: 20px;
+    border: 2px solid rgb(255, 184, 184);
+    border-radius: 15px;
+    padding: 50px;
+
+}
+.container-program-grid .item1 { 
+    grid-area: 3 / 1 / 5 / 4; 
+    border: 2px solid rgb(255, 148, 148);
+    border-radius: 15px;
+    padding: 50px;
+
+}
+.container-program-grid .item2 {
+     grid-area: 3 / 4 / 5 / 7; 
+     border: 2px solid rgb(118, 51, 51);
+     border-radius: 15px;
+     padding: 50px;
+}
+
+
+
+
+
+
+/* 
+.container-program{
+    background-color: rgb(132, 236, 242);
+    height: 400px;
+    text-align: center;
+    padding-top: 150px;
+    margin: 15px;
+}
+
+.container-program ul li{
+    list-style: none;
+    padding: 5px;
+}
+
+.container-program .upper{
+    float: right;
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+}
+
+.container-program .down{
+    float: left;
+} */

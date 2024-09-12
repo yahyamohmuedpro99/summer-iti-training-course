@@ -101,7 +101,7 @@ This introductory session is designed to provide you with a solid foundation in 
 #### The Relational Model
 - Relations (tables) and tuples (rows)
 - Attributes (columns) and domains
-- Keys: Primary keys, foreign keys, and their importance in establishing relationships
+- Keys: Primary keys(unique), foreign keys, and their importance in establishing relationships
 - Normalization: Organizing data to reduce redundancy and improve integrity
 
 #### SQL: The Language of Relational Databases

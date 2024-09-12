@@ -19,7 +19,7 @@ WHERE (category = 'Electronics' OR category = 'Computers')
 
 -- Pattern matching
 SELECT * FROM customers
-WHERE last_name LIKE 'Sm%';
+WHERE last_name LIKE 'Sam%';
 
 -- Range queries
 SELECT * FROM orders

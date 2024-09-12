@@ -17,6 +17,7 @@ By the end of this lesson, you will be able to:
 3. Relationships: Connections between entities (e.g., Author writes Book)
 
 ### Cardinality in Relationships
+![alt text](image.png)
 - One-to-One (1:1)
 - One-to-Many (1:N)
 - Many-to-Many (M:N)
@@ -89,8 +90,9 @@ CREATE TABLE Book (
 CREATE TABLE BookAuthor (
     book_id INTEGER REFERENCES Book(book_id),
     author_id INTEGER REFERENCES Author(author_id),
-    PRIMARY KEY (book_id, author_id)
+    PRIMARY KEY (book_id, author_id) -- composite key
 );
+
 
 -- Create Member table
 CREATE TABLE Member (
