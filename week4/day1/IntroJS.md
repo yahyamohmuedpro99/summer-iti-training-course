@@ -273,8 +273,8 @@ This expanded content provides a more comprehensive introduction to JavaScript, 
 => Python: Dynamically typed, strongly typed, with no implicit type coercion.
 
 # Task
-Task 1: Create a script that asks the user's name using prompt() and greets them with an alert().
-Task 2: Write a program that calculates the sum of two numbers input by the user.
-Task 3: Use a for loop to display numbers from 1 to 10 in the console.
+  ### - Task 1: Create a script that asks the user's name using prompt() and greets them with an alert().
+  ### - Task 2: Write a program that calculates the sum of two numbers input prompt()  by the user alert().
+  ### - Task 3: Use a for loop to display numbers from range of values user put using prompt and print in the console.
 
 ## Submit here => https://drive.google.com/drive/folders/13g5kOL_2bq-a4srB4tV2DXy0ihfrh_C9?usp=sharing

@@ -199,10 +199,32 @@ let intervalId = setInterval(function() {
 
 Remember to use `clearInterval()` to stop the interval when it's no longer needed.
 
-# Task
-Task 1: Write a function that takes a number as an argument and returns its square.
-Task 2: Create a simple webpage with a button that changes the background color of the page when clicked.
-Task 3: Build an image gallery where hovering over thumbnails displays a larger version.
+# Tasks
+## ======= warm up small tasks ==================
+### **Task** 1: Write a function that takes a number as an argument and returns its square.
+### **Task** 2: Create a simple webpage with a button that changes the background color of the page when clicked.
+### **Task** 3: Build an image gallery where hovering over thumbnails displays a larger version.
 
+## **Task**: Create a Simple To-Do App
+
+### Objectives:
+
+1. **Design and Implement the To-Do App**
+   - The app should allow users to:
+     - Enter a title for each task.
+     - Choose a color for both the font and the background of the task.
+
+2. **Organize Tasks**
+   - Create two distinct sections for managing tasks:
+     - **To-Dos**: This section will display tasks that are not yet completed.
+     - **Done**: This section will show tasks that have been completed.
+
+3. **Manage Tasks**
+   - In the **To-Dos** section:
+     - Provide a button or checkbox that allows users to move a task to the **Done** section.
+     - Include a button to remove the task from the **To-Dos** list if needed.
+
+4. **Styling**
+   - Apply a stroke (line-through effect) to the title of tasks in the **Done** section to indicate completion.
 
 ## Submit here => https://drive.google.com/drive/folders/1tfNrmVIiiFWKf5KksQ3sbcNk6DyzB-3C?usp=sharing
